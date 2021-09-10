@@ -1,0 +1,80 @@
+<div class="container-fluid">
+    <span>
+    <h3>Coupons For Clothing sites </h3>
+  </span>
+    <div class="container-fluid">
+
+    </div>
+
+
+    <div class="container-fluid">
+
+        <span>
+      <h4 style="text-align: center;"><b>MYNTRA</b></h4>
+    </span>
+        <div class="row card-group">
+            <div class="col-4" *ngFor="let  myntraCouponsDetail of myntraCouponsDetails">
+
+                <div class="card w-55 shadow-lg  mb-5 bg-white rounded" style="width:400px">
+                    <img class="card-img mx-auto" src="{{myntraCouponsDetail.image}}" alt="Card image" style="width: 220px;height: 220px;">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">{{myntraCouponsDetail.heading}}</h3>
+                        <h4 class="card-title">{{myntraCouponsDetail.offer}}</h4>
+                        <p class="card-text"> {{myntraCouponsDetail.detailsInfo}}</p>
+                        <!--<a href="#" class="btn btn-outline-primary stretched-link">Show Coupon</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <span>
+      <h4 style="text-align: center;">AJIO</h4>
+    </span>
+        <div class="row card-group">
+            <div class="col-4" *ngFor="let ajioCouponsDetail of ajioCouponsDetails">
+
+                <div class="card w-55 shadow-lg  mb-5 bg-white rounded" style="width:400px">
+                    <img class="card-img mx-auto" src="{{ajioCouponsDetail.image}}" alt="Card image" style="width: 220px;height: 220px;">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">{{ajioCouponsDetail.heading}}</h3>
+                        <h4 class="card-title">{{ajioCouponsDetail.offer}}</h4>
+                        <p class="card-text"> {{ajioCouponsDetail.detailsInfo}}</p>
+                        <!--<a href="#" class="btn btn-outline-primary stretched-link">Show Coupon</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="container-fluid">
+
+        <span>
+      <h4 style="text-align: center;">FIRSTCRY</h4>
+    </span>
+        <div class="row card-group">
+            <div class="col-4" *ngFor="let firstcryCouponsDetail of firstcryCouponsDetails">
+
+                <div class="card w-55 shadow-lg  mb-5 bg-white rounded" style="width:400px">
+                    <img class="card-img mx-auto" src="{{firstcryCouponsDetail.image}}" alt="Card image" style="width: 220px;height: 220px;">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">{{firstcryCouponsDetail.heading}}</h3>
+                        <h4 class="card-title">{{firstcryCouponsDetail.offer}}</h4>
+                        <p class="card-text"> {{firstcryCouponsDetail.detailsInfo}}</p>
+                        <!--<a href="myntracoupon.html" class="btn btn-outline-primary stretched-link">Show Coupon</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+</div>

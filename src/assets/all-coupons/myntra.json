@@ -1,0 +1,43 @@
+[{
+        "image": "../../assets/images/tshirts.jfif",
+        "heading": "25% OFF",
+        "offer": "mens casual wear ",
+        "detailsInfo": "Promo Code:ABCD567384"
+
+    },
+    {
+        "image": "../../assets/images/tshirt.webp",
+        "heading": "50% OFF",
+        "offer": "Best deals on Jeans and Shirts",
+        "detailsInfo": "Promo Code: CDFG4757558"
+    },
+    {
+        "image": "../../assets/images/jerry_shirt.jpg",
+        "heading": "20% OFF ",
+        "offer": "Flat 20% OFF all Casual wear",
+        "detailsInfo": "Promo Code: OPMN76859"
+
+    },
+    {
+        "image": "../../assets/images/mens.jpeg",
+        "heading": "50% OFF",
+        "offer": "Men's wear at 50% off",
+        "detailsInfo": "Promo Code: MNPQ65454473"
+    },
+    {
+        "image": "../../assets/images/designer.jpeg",
+        "heading": "20% OFF",
+        "offer": "Flat 20% OFF on Designer outfits",
+        "detailsInfo": "Promo Code: KHGF673463"
+
+    },
+    {
+        "image": "../../assets/images/ethnic.jpg",
+        "heading": "Ethnic Deals ",
+        "offer": "Best deals on Ethnic wear ",
+        "detailsInfo": "Promo Code: RWMH4587378"
+
+    }
+
+
+]

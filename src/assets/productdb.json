@@ -1,0 +1,134 @@
+[{
+        "id": 1,
+        "name": "Men's Trouser(Black)",
+        "price": "30",
+        "rating": 4.4,
+        "imageurl": "https://5.imimg.com/data5/MR/XV/MY-56466780/slim-fit-black-color-trouser-500x500.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Men's Casual Tshirt",
+        "price": "20",
+        "rating": 4.1,
+        "imageurl": "https://cpimg.tistatic.com/06491332/b/4/Mens-Casual-T-Shirt.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Designer Tshirt",
+        "price": "35",
+        "rating": 3.9,
+        "imageurl": "https://5.imimg.com/data5/YQ/KP/MY-19469071/htb1zym_shirt-500x500.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Sherwani",
+        "price": "15",
+        "rating": 3.3,
+        "imageurl": "https://c8.alamy.com/comp/2BE4N8G/indian-grooms-wedding-sherwani-hanging-her-ritual-ceremony-2BE4N8G.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Party Wear Tshirt",
+        "price": "25",
+        "rating": 4.3,
+        "imageurl": "https://https://4.imimg.com/data4/DJ/EQ/ANDROID-4005415/product-500x500.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "",
+        "price": "17",
+        "rating": 4.0,
+        "imageurl": "https://cdn.pixabay.com/photo/2014/07/08/12/34/pizza-386717__340.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Wrinkles Penne Spicy Pasta",
+        "price": "15",
+        "rating": 5.0,
+        "imageurl": "https://i.ytimg.com/vi/JEeO_hagtVM/maxresdefault.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Choco Creamy Shake",
+        "price": "20",
+        "rating": 3.2,
+        "imageurl": "https://images.unsplash.com/photo-1583183634411-47514a69722c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": 9,
+        "name": "Yummy Mango & Lemon Juice",
+        "price": "30",
+        "rating": 3.2,
+        "imageurl": "https://images.unsplash.com/photo-1546173159-315724a31696?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": 10,
+        "name": "Masala Shoestring Fries",
+        "price": "22",
+        "rating": 3.6,
+        "imageurl": "https://cdn.pixabay.com/photo/2016/11/20/09/06/bowl-1842294__340.jpg"
+    },
+
+    {
+        "id": 11,
+        "name": "Jelly Overloaded Doughnut",
+        "price": "20",
+        "rating": 4.6,
+        "imageurl": "https://cdn.pixabay.com/photo/2017/02/02/00/11/donut-2031755_1280.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Lemon Detox On Wooden Top",
+        "price": "15",
+        "rating": 4.2,
+        "imageurl": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+    },
+
+    {
+        "id": 13,
+        "name": "Vegie Cheese Supreme Pizza",
+        "price": "18",
+        "rating": 4.1,
+        "imageurl": "https://cdn.pixabay.com/photo/2015/02/01/05/20/supreme-pizza-619133__340.png"
+    },
+    {
+        "id": 14,
+        "name": "Chocolate Frosted Doughnut",
+        "price": "30",
+        "rating": 4.4,
+        "imageurl": "https://cdn.pixabay.com/photo/2014/11/08/16/37/donut-522444__340.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Vegan BBQ Tofu Cheese Burger",
+        "price": "17",
+        "rating": 4.7,
+        "imageurl": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": 16,
+        "name": "CHICKEN Golden Delight Pizza",
+        "price": "26",
+        "rating": 3.9,
+        "imageurl": "https://cdn.pixabay.com/photo/2017/11/23/16/57/pizza-2973200_1280.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Coffee Creamy Bite Doughnut",
+        "price": "19",
+        "rating": 4.4,
+        "imageurl": "https://cdn.pixabay.com/photo/2018/06/02/11/35/donut-3448210__340.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Chocolate Oreo Cookie Frappe",
+        "price": "21",
+        "rating": 3.7,
+        "imageurl": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+    }
+
+
+
+
+
+]
