@@ -19,6 +19,9 @@
             <li class="nav-item">
                 <a class="nav-link" routerLink="/coupons"><span class="header-link">Coupons</span></a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/products"><span class="header-link">Products</span></a>
+            </li>
 
 
 
@@ -31,7 +34,7 @@
         </ul>
 
         <ul class="navbar-nav">
-            <a class="nav-link" routerLink="/cart"><i class="fa fa-shopping-cart" style="font-size:48px;color:white"></i></a>
+            <!--<a class="nav-link" routerLink="/cart"><i class="fa fa-shopping-cart" style="font-size:48px;color:white"></i></a>-->
             <a class="nav-link" *ngIf="!_authService.loggedIn()" routerLink="/login" routerLinkActive="active"><span
           class="header-link">Login</span></a>
             <a class="nav-link" *ngIf="!_authService.loggedIn()" routerLink="/register" routerLinkActive="active"><span
