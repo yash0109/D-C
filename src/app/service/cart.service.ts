@@ -11,7 +11,7 @@ export class CartService {
   }
   addToCart(item) {
 
-    let addCart = { id: item.id, name: item.name, price: item.price, imageurl: item.imageurl };
+    let addCart = { id: item.id, name: item.name, price: item.price, imageUrl: item.imageUrl };
 
     return this.http.post(this.serviceUrl, addCart);
 

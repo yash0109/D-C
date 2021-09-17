@@ -5,7 +5,7 @@ const Item = require('../models/product');
 
 //retriving data from database
 
-router.get('/items', (req, res, next) => {
+router.get('/', (req, res, next) => {
     Item.find(function(err, mesg) {
         if (err) {
             res.json(err);
@@ -16,13 +16,13 @@ router.get('/items', (req, res, next) => {
 
 });
 //Inserting the data
-router.post('/item', (req, res, next) => {
+router.post('/', (req, res, next) => {
         let newItem = new Item({
             id: req.body.id,
             name: req.body.name,
             price: req.body.price,
             rating: req.body.rating,
-            imageurl: req.body.imageurl
+            imageUrl: req.body.imageUrl
         })
         newItem.save((err, newItem) => {
             if (err) {

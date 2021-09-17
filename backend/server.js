@@ -19,7 +19,7 @@ app.use(bodyParser.json());
 
 app.use(express.json());
 app.use('/api', api);
-app.use('/food', itemRouter);
+app.use('/products', itemRouter);
 app.use('/cart', cartRouter);
 app.use('/order', orderRouter);
 

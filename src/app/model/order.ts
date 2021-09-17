@@ -1,9 +1,7 @@
-export class Order {
-
-    ordername: string;
-    orderplace: string;
+export interface Order {
+    orderName: string;
+    orderId: number;
     price: number;
-    placeofdelivery: string;
-    placeofsupply: string;
-
+    destination: string;
+    source: string;
 }

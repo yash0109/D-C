@@ -21,13 +21,13 @@ export class CouponsComponent implements OnInit {
   ngOnInit(): void {
    
 
-    this.couponService.getMyntraCoupons().subscribe(flight => this.myntraCouponsDetails = flight);
+    this.couponService.getMyntraCoupons().subscribe(first => this.myntraCouponsDetails = first);
 
-    this.couponService.getAjioCoupons().subscribe(train => this.ajioCouponsDetails = train);
+    this.couponService.getAjioCoupons().subscribe(second => this.ajioCouponsDetails = second);
 
     
 
-    this.couponService.getFirstcryCoupons().subscribe(fashion => this.firstcryCouponsDetails = fashion);
+    this.couponService.getFirstcryCoupons().subscribe(third => this.firstcryCouponsDetails = third);
   }
 
   Coupon: any = [];

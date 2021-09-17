@@ -1,6 +1,33 @@
-.table>tbody>tr>td,
-.table>tfoot>tr>td {
+.table>thead>tr>th{
+    background-color: red;
+}
+
+.table>tbody>tr>td{
     vertical-align: middle;
+    background-color: lightblue;
+}
+
+.table>tfoot>tr>td{
+    vertical-align: middle;
+    background-color: red;
+}
+
+h3{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: lightblue;
+    font-style: italic;
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.card{
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 5px;
+    width: 250px;
 }
 
 @media screen and (max-width: 600px) {
@@ -27,8 +54,8 @@
         min-width: 320px;
     }
     table#cart tbody tr td:first-child {
-        background: #333;
-        color: #fff;
+        background: white;
+        color: white;
     }
     table#cart tbody td:before {
         content: attr(data-th);

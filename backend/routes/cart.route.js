@@ -8,7 +8,7 @@ router.post('/', (req, res) => {
         id: req.body.id,
         name: req.body.name,
         price: req.body.price,
-        imageurl: req.body.imageurl,
+        imageUrl: req.body.imageUrl,
 
     })
     newCart.save((err, result) => {

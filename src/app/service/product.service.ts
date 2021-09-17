@@ -5,15 +5,13 @@ import { Item } from '../model/product';
 
 @Injectable()
 export class ProductService {
-  ServiceUrl: string = "http://localhost:3000/food/items";
-
-
+  public serviceUrl: string = "../../assets/productdb.json";
 
   constructor(private http: HttpClient) { }
  
   getItems(): Observable<Item[]> {
 
-    return this.http.get<Item[]>(this.ServiceUrl);
+    return this.http.get<Item[]>(this.serviceUrl);
 
   }
 }

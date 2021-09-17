@@ -9,16 +9,18 @@
                     <h3 class="mb-0">Register</h3>
                 </div>
                 <div class="card-body">
-                    <form class="form">
+                    <form class="form" #registerForm="ngForm">
                         <div class="form-group">
                             <label for="uname1">Username</label>
-                            <input type="text" [(ngModel)]="registerUserData.email" name="email" class="form-control rounded-0" required>
+                            <input type="email" [(ngModel)]="registerUserData.email" name="email" #name="ngModel" [class.is-invalid]="name.invalid && name.touched" class="form-control rounded-0" required>
+                            <small class="text-danger" [class.d-none]="name.valid || name.untouched">Username is Required</small>
                         </div>
                         <div class="form-group">
                             <label>Password</label>
-                            <input type="password" [(ngModel)]="registerUserData.password" name="password" class="form-control rounded-0" required>
+                            <input type="password" #password="ngModel"  [class.is-invalid]="password.invalid && password.touched" [(ngModel)]="registerUserData.password" name="password" class="form-control rounded-0" required>
+                            <small class="text-danger" [class.d-none]="password.valid || password.untouched">Password is Required</small>
                         </div>
-                        <button type="button" (click)="registerUser()" class="btn btn-primary float-right">Register</button>
+                        <button [disabled]="registerForm.form.invalid" type="button" (click)="registerUser()" class="btn btn-primary float-right">Register</button>
                     </form>
                 </div>
                 <!--/card-block-->

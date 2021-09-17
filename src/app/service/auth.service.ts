@@ -4,19 +4,19 @@ import { Router } from '@angular/router'
 
 @Injectable()
 export class AuthService {
-
-  private _registerUrl = "http://localhost:3000/api/register";
-  private _loginUrl = "http://localhost:3000/api/login";
+  private base_url = 'http://localhost:3000/api/'
+  //private _registerUrl = "http://localhost:3000/api/register";
+  //private _loginUrl = "http://localhost:3000/api/login";
 
   constructor(private http: HttpClient,
     private _router: Router) { }
 
   registerUser(user) {
-    return this.http.post<any>(this._registerUrl, user)
+    return this.http.post<any>(this.base_url+'/register', user)
   }
 
   loginUser(user) {
-    return this.http.post<any>(this._loginUrl, user)
+    return this.http.post<any>(this.base_url+'/login' , user)
   }
 
   logoutUser() {
